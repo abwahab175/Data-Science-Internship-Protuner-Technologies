@@ -4,6 +4,32 @@ This repo contains the files I worked on during my Data Science internship at Pr
 They provided me a large dataset of restaurants and my main role for me was to build a model to predict the ratings of restaurants and gather meaningful insights from the data.
 My regression model achieved an accuracy of 98% and further details are listed below.
 
+# Dataset
+CSV file is uploaded here in the repo
+
+# Platform
+Google Colab for Task 3 only.
+
+# Libraries
+pandas, numpy, matplotlib, seaborn, scikitlearn
+
+# Data Preprocessing and splitting
+* Cuisines had 9 null values. So dropped 
+* Removed features that will inhibit model performance
+* The target variables were balanced
+* Split training data and test data in the ratio 8:2
+
+# Model Evaluation
+* My restaurant rating prediction model obtained a R2 score of 0.98.
+* Random Forest performs better on the model than logistic regression.
+
+# Insights from EDA
+* Expensive restaurants tend to have higher ratings.
+* Visualized the geospatial distribution of restaurants on the map using their co-ordinates.
+* New Delhi has the highest number of restaurants.
+* 'North Indian' is the most popular cuisine overall.
+
+
 ## Task 1
 
 **Objective:** Build a machine learning model to predict the
